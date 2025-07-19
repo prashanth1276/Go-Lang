@@ -1,0 +1,14 @@
+1. go mod init <domain>/<give some name>
+
+eg:
+go mod init example.com/profit
+
+2. go run .
+
+3. go build
+
+4. .\profit
+
+5. go build -o profit_calculator.exe
+
+6. go run <filename>.go
