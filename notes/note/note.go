@@ -27,7 +27,7 @@ func (n Notes) Save() error {
 	return os.WriteFile(fileName, json, 0644)
 }
 
-func (n Notes) GetNotesData(){
+func (n Notes) DisplayData(){
 	fmt.Printf("Your Note titled %v has the following Content: \n\n%v\n",n.NotesTitle, n.NotesContent)
 }
 
